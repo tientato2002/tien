@@ -1,0 +1,30 @@
+.hero {
+  padding-bottom: 200px; }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0 40px;
+    position: relative; }
+    .hero-container .content {
+      width: 100%;
+      max-width: 555px; }
+      .hero-container .content-heading {
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        line-height: calc(70/60);
+        color: #0B132A; }
+      .hero-container .content-desc {
+        line-height: calc(30/16);
+        margin-bottom: 50px;
+        font-weight: 100; }
+        .hero-container .content-desc strong {
+          font-weight: 700; }
+    .hero-container .img {
+      position: absolute;
+      top: 50%;
+      transform: translate(40px, -50%);
+      right: 0; }
+
+/*# sourceMappingURL=hero.css.map */
